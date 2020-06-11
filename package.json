@@ -1,0 +1,29 @@
+{
+  "name": "auth1-project",
+  "version": "1.0.0",
+  "description": "Auth Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HDell/node-auth1-project.git"
+  },
+  "author": "Handell Desulme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HDell/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/HDell/node-auth1-project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "knex": "^0.20.10",
+    "sqlite3": "^4.1.1"
+  }
+}
